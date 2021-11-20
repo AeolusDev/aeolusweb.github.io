@@ -250,7 +250,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/portfolio/main1.png") top right no-repeat;
+  background: url("../img/portfolio/main.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
