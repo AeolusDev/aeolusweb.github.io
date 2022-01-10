@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+}
+
+#rick {
+  content: "";
+  position: absolute;
+}
+
+#rick h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+  top: 50%;
+}
+
+#rick p {
+  color: white;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#rick p span {
+  color: white;
+  letter-spacing: 1px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
