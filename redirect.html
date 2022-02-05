@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Redirect Page</title>
+    </head>
+    <body>
+        <script>
+            let answer = "rick roll";
+            let userUi = prompt("Enter the famous meme to redirect to myanimelist profile. *HINT:* Roll")
+            if(userUi === answer){
+                var delayInMilliseconds = 5000; //1 second
+                setTimeout(function() {
+                    location.href="https://myanimelist.net/profile/captaincool6333";
+                    console.log("Correct Password entered. Redirecting...");
+                }, delayInMilliseconds);
+            }
+            else{
+                location.href="https://youtu.be/dQw4w9WgXcQ";
+            }
+        </script>
+    </body>
+</html>
