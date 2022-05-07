@@ -384,15 +384,15 @@ h6 {
 .wrapper .myanimelist:hover,
 .wrapper .myanimelist:hover .tooltip,
 .wrapper .myanimelist:hover .tooltip::before {
-  background-color: #de463b;
-  color: #00bfff;
+  background-color: #00bfff;
+  color: #ffffff;
 }
 
 .wrapper .discord:hover,
 .wrapper .discord:hover .tooltip,
 .wrapper .discord:hover .tooltip::before {
-  background-color: #de463b;
-  color: #00bfff;
+  background-color: #00bfff;
+  color: #ffffff;
 }
 
 
