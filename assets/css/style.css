@@ -381,12 +381,20 @@ h6 {
   color: #ffffff;
 }
 
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
+.wrapper .myanimelist:hover,
+.wrapper .myanimelist:hover .tooltip,
+.wrapper .myanimelist:hover .tooltip::before {
   background-color: #de463b;
-  color: #ffffff;
+  color: #00bfff;
 }
+
+.wrapper .discord:hover,
+.wrapper .discord:hover .tooltip,
+.wrapper .discord:hover .tooltip::before {
+  background-color: #de463b;
+  color: #00bfff;
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
