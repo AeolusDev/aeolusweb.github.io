@@ -64,10 +64,12 @@ h6 {
   z-index: 9999;
   overflow: hidden;
   background: #fff;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 #preloader:before {
-  content: "";
+  content: url("./assets/img/8jcw0utnz9371.png")
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -79,6 +81,7 @@ h6 {
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
+  
 }
 
 @-webkit-keyframes animate-preloader {
