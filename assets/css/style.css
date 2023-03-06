@@ -68,7 +68,7 @@ h6 {
 
 #preloader:before {
   background-color: #0000343A40; /* Your background color here */
-  background-image: url("https://raw.githubusercontent.com/AeolusDev/aeolusweb.github.io/main/assets/img/8jcw0utnz9371.png?token=GHSAT0AAAAAAB7F6ZYAGAZT4NIKTXZ5VGLOZAFKPLQ");
+  background-image: url("./assets/img/8jcw0utnz9371.png");
   background-size: 200px 200px; /* Change this to increase size of blahaj */
   background-repeat: no-repeat;/* Remove for infinite blahajs! */
   background-position: center;
