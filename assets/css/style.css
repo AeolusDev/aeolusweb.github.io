@@ -55,51 +55,39 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-  -webkit-transform: scaleX(-1);
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+  background: #000000;
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: #ddd;
+  
+  overflow: hidden;/* Without this there is goofy scrolling*/
+}
+
+.blahaj-loader {
+  background-color: #0000343A40; /* Your background color here */
+  background-image: url("./assets/img/8jcw0utnz9371.png");
+  background-size: 200px 200px; /* Change this to increase size of blahaj */
+  
+  background-repeat: no-repeat;/* Remove for infinite blahajs! */
+  
+  background-position: center;
+  position: absolute;
+  inset: 0;/* top, right, bottom, left of 0 */
+  animation: loader 1s infinite reverse linear;/* you can change the timing function if you want */
+  -webkit-transform: scaleX(-2);
   transform: scaleX(-1);
 }
 
-#preloader:before {
-  content: url("./assets/img/8jcw0utnz9371.png")
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-  
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+@keyframes loader {
+  from {rotate: 306deg}
+  to {rotate: 0deg}
 }
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
