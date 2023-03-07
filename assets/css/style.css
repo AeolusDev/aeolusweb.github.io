@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #80000000;
-  background-color: #8080000000;
+  color: rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.86);
 }
 
 a {
@@ -297,7 +297,7 @@ h6 {
 
 .wrapper .icon {
   position: relative;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.86);
   border-radius: 50%;
   padding: 15px;
   margin: 10px;
@@ -457,6 +457,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  color: #ffffff;
 }
 .about .content ul li {
   margin-bottom: 20px;
@@ -474,6 +475,9 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about .section-title .p{
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
