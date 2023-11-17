@@ -1,4 +1,4 @@
-<html class="sl-theme-dark" lang="en">
+<html lang="en">
 
 <head>
   <style type="text/css">span.iconify, i.iconify, iconify-icon { display: inline-block; width: 1em; }</style>
@@ -18,7 +18,7 @@
     import { registerIconLibrary } from 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/utilities/icon-library.js';
   
     registerIconLibrary('aeolus-icons', {
-      resolver: name => '/assets/icons/autocode.svg',
+      resolver: name => './assets/icons/autocode.svg',
       mutator: svg => svg.setAttribute('fill', 'currentColor')
     });
   </script>
