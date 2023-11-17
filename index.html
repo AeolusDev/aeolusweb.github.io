@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html class="sl-theme-dark" lang="en">
 
 <head>
   <style type="text/css">span.iconify, i.iconify, iconify-icon { display: inline-block; width: 1em; }</style>
@@ -9,13 +8,21 @@
   <title>Aeolus - Developer</title>
   <meta content="The home page of AeolusDev Website" name="description">
   <meta content="" name="keywords">
-    <script src='https://js.sentry-cdn.com/955fb8d98e9849acb89aa3e9b515dc7c.min.js' crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script defer data-domain="aeolus.is-a.dev" src="https://analytics.is-a.dev/js/script.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+  <script src='https://js.sentry-cdn.com/955fb8d98e9849acb89aa3e9b515dc7c.min.js' crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <script defer data-domain="aeolus.is-a.dev" src="https://analytics.is-a.dev/js/script.js"></script>
+  <script type="module">
+    import { registerIconLibrary } from 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/utilities/icon-library.js';
+  
+    registerIconLibrary('aeolus-icons', {
+      resolver: name => '/assets/icons/autocode.svg',
+      mutator: svg => svg.setAttribute('fill', 'currentColor')
+    });
+  </script>
+    
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/dark.css" />
   <link href="assets/img/favicon.png" rel="icon">
@@ -54,12 +61,12 @@
   
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Aeolus</h1>
-      <p>I'm a <span class="typed" data-typed-items="Discord Bot Developer, Student, Anime lover, Marvel Fan, DC Hater(Not really), Oshi No Ko is the best!"></span></p>
+      <h1>Hi👋! I am Aeolus</h1>
+      <p>I'm a <span class="typed" data-typed-items="Discord Bot Developer, Student, Anime lover, Marvel Fan, DC Hater(Not really)"></span></p>
       <div class="wrapper">
-        <div class="icon facebook">
+        <div class="icon autocode">
           <div class="tooltip">Autocode</div>
-          <span><a href="https://autocode.com/captaincool6333"><span class="iconify" data-icon="ant-design:code-filled"></span></a></span>
+          <span><a href="https://autocode.com/captaincool6333"><sl-icon library="aeolus-icons" name="autocode"></sl-icon></a></span>
         </div>
         <div class="icon twitter">
           <div class="tooltip">Twitter</div>
@@ -67,7 +74,7 @@
         </div>
         <div class="icon github">
           <div class="tooltip">Github</div>
-          <span><a href="https://github.com/AeolusDev"><span class="iconify" data-icon="akar-icons:github-fill"></span></a></span>
+          <span><a href="https://github.com/AeolusDev"><sl-icon name="github"></sl-icon></a></span>
         </div>
         <div class="icon myanimelist">
           <div class="tooltip">Anilist</div>
@@ -75,11 +82,11 @@
         </div>
         <div class="icon discord">
           <div class="tooltip">Discord</div>
-          <span><a href="https://discord.com/users/596293027627270155"><span class="iconify" data-icon="logos:discord-icon"></span></a></span>
+          <span><a href="https://discord.com/users/596293027627270155"><sl-icon name="discord"></sl-icon></a></span>
         </div>
         <div class="icon anime-breathing">
           <div class="tooltip">Anime Breathing</div>
-          <span><a href="https://www.writeurl.com/publish/ds6n6hdyvsji1ovvwcc5"><span class="iconify" data-icon="ant-design:unordered-list-outlined"></span></a></span>
+          <span><a href="https://www.writeurl.com/publish/ds6n6hdyvsji1ovvwcc5"><sl-icon name="filetype-txt"></sl-icon></a></span>
         </div>
       </div>
     </div>
@@ -118,7 +125,7 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><script>document.write(new Date().getFullYear() - 2007)</script></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>None</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span> <a href="mailto:aeolusdeveloper@gmail.com">aeolusdeveloper@gmail.com</a> || <a href="mailto:captaincool6333.proton.me">captaincool6333.proton.me</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span> <a href="mailto:aeolusdeveloper@gmail.com">aeolusdeveloper@gmail.com</a> <a href="mailto:captaincool6333.proton.me">captaincool6333.proton.me</a></span></li>
                 </ul>
               </div>
             </div>
@@ -175,23 +182,23 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">HTML<iconify-icon icon="skill-icons:html"></iconify-icon><i class="val">80%</i></span>
+              <span class="skill"><iconify-icon icon="skill-icons:html"></iconify-icon> HTML <iconify-icon icon="skill-icons:html"></iconify-icon><i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <sl-progress-bar value="80" class="progress-bar-values">80%</sl-progress-bar>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS<iconify-icon icon="skill-icons:css"></iconify-icon><i class="val">30%</i></span>
+              <span class="skill"><iconify-icon icon="skill-icons:css"></iconify-icon> CSS <iconify-icon icon="skill-icons:css"></iconify-icon><i class="val">30%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                <sl-progress-bar value="30" class="progress-bar-values">30%</sl-progress-bar>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript<iconify-icon icon="skill-icons:javascript"></iconify-icon><i class="val">50%</i></span>
+              <span class="skill"><iconify-icon icon="skill-icons:javascript"></iconify-icon> JavaScript <iconify-icon icon="skill-icons:javascript"></iconify-icon><i class="val">50%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <sl-progress-bar value="50" class="progress-bar-values">50%</sl-progress-bar>
               </div>
             </div>
 
@@ -235,15 +242,6 @@
               <a href="https://bit.ly/autocodeapp">Autocode App</a>
             </h4>
             <p>The very own app for https://autocode.com made by myself.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box iconbox-orange ">
-            <div class="icon">
-              <iconify-icon icon="simple-icons:roblox" style="color: red;"></iconify-icon>
-             </div>
-              <h4><a href="#">Roblox Verification Bot</a></h4>
-              <p>A bot for verifying users on discord using https://verify.eryn.io/api</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
@@ -300,6 +298,15 @@
               <p>API for Discord Profile I created for my Aeolus Bot to share your profile with others.</p>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+                   <div class="icon-box iconbox-pink">
+               <div class="icon"> 
+                 <sl-icon name="github"></sl-icon>
+                 </div>
+                 <h4><a href="https://github.com/AeolusDev/NoNutNovember-Extension">NoNutNovember-Extension</a></h4>
+                 <p>Keeps you safe from all the horny stuff on the internet during NoNutNovember!</p>
+             </div>
+           </div>
 </section>
 
   
@@ -408,7 +415,7 @@
               </div>
 
               <div class="email">
-                <iconify-icon icon="line-md:email-twotone-alt"></iconify-icon>
+                <sl-icon name="envelope-at-fill"></sl-icon>
                 <h4>Email:</h4>
                 <p><a href="mailto:aeolusdeveloper@gmail.com">aeolusdeveloper@gmail.com</a></p>
                 <p><a href="mailto:captaincool6333.proton.me">captaincool6333.proton.me</a></p>
@@ -446,8 +453,8 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><iconify-icon icon="line-md:upload-outline-loop"></iconify-icon></a>
-
-
+  
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
