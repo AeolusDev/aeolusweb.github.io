@@ -1,13 +1,14 @@
 # What is this?
-
 This is an updated doc on Autocode's documentation on creating APIs on their platform.
-Original doc: <https://docs.autocode.com/standard-library-of-apis/what-is-the-standard-library/>
+<br>
+Original doc: https://docs.autocode.com/standard-library-of-apis/what-is-the-standard-library/
 
-# Creating a Connector API
-
+# Creating a Connector API 
 There are 2 ways you can create a Connector API on autocode.
-Method 1 will show you how to create your own API inside the [autocode website](https://autocode.com/dashboard).
-Method 2 will show you how you can host your own API on your own PC.
+<br>
+**Method 1** will show you how to create your own API inside the [autocode website](https://autocode.com/dashboard).
+<br>
+**Method 2** will show you how you can host your own API on your own PC.
 
 ## Method 1: Creating a Connector API inside autocode.com
 (1) Create a new app by clicking the `New API` button on your [autocode dashboard](https://autocode.com/dashboard).
