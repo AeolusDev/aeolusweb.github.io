@@ -400,6 +400,12 @@ h6 {
   color: #000000;
 }
 
+.wrapper .docs:hover,
+.wrapper .docs:hover .tooltip,
+.wrapper .docs:hover .tooltip::before {
+  background-color: grey;
+  color: #000000;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
