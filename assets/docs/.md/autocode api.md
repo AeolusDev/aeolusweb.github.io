@@ -97,4 +97,4 @@ For example whether it will be an `array` or `string` or `integer` or `number` a
 
 
 # API Page
-The API page is basically a documentaion page for your APIs for others to see. This page contains a sample code and response of your API including an area to run the code without being in the IDE.
+The API page is basically a documentation page for your APIs for others to see. This page contains a sample code and response of your API including an area to run the code without being in the IDE.
