@@ -22,6 +22,18 @@
       mutator: svg => svg.setAttribute('fill', 'currentColor')
     });
   </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+          tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            textGray: '#728394',
+          }
+        }
+      }
+    }
+    </script>
     
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/dark.css" />
@@ -240,167 +252,24 @@
         <p></p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box iconbox-blue">
-            <div class="icon"> 
-              <iconify-icon icon="simple-icons:electron" style="color: blue;"></iconify-icon>
-            </div>
-            <h4>
-              <a href="https://bit.ly/autocodeapp">Autocode App</a>
-            </h4>
-            <p>The very own app for https://autocode.com made by myself.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-          <div class="icon-box iconbox-pink">
-            <div class="icon"> 
-              <iconify-icon icon="simple-icons:discord" style="color: blue;"></iconify-icon>
-            </div>
-              <h4><a href="https://top.gg/bot/905703656471552021">Aeolus || All Purpose Bot</a></h4>
-              <p>Aeolus || All-purpose bot made to rival bots such as Dyno and Mee6 by providing a vast variety of features that a bot will ever need including anti-token grabber and phishing links.</p>
-          </div>
-        </div>
-     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box iconbox-pink">
-            <div class="icon"> 
-              <iconify-icon icon="ion:game-controller"></iconify-icon>
+        <sl-carousel pagination navigation mouse-dragging>
+          <sl-carousel-item>
+            <div class="place-self-center w-96 h-60 rounded-lg shadow-2xl">
+              <div class="place-self-center">
+                <sl-icon name="windows"></sl-icon>
+
               </div>
-              <h4><a href="#">DTV Game</a></h4>
-              <p>First created by electro_9219. The game is the first and only Dave the Villager Game created. It is available as an HTML file download.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box iconbox-pink">
-            <div class="icon"> 
-              <iconify-icon icon="material-symbols:image-search-sharp"></iconify-icon>
-              </div>
-              <h4><a href="https://autocode.com/captaincool6333/snippets/cachsnpt_W37Zy5r7Q8SjR1vKDGuveyqsTJAHptuUmY4B/">Image Moderation for Discord</a></h4>
-              <p>An Image Moderation snippet that check all images sent to confirm if it is 18+ rated or not.</p>
-          </div>
-        </div>
-     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box iconbox-pink">
-            <div class="icon"> 
-              <iconify-icon icon="tabler:api"></iconify-icon>
-              </div>
-              <h4><a href="https://autocode.com/captaincool6333/api/aeolus-api/">Aeolus API</a></h4>
-              <p>The API used by Aeolus Bot.</p>
-          </div>
-        </div>
-     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box iconbox-pink">
-            <div class="icon"> 
-              <iconify-icon icon="tabler:api"></iconify-icon>
-              </div>
-              <h4><a href="https://autocode.com/captaincool6333/api/anime-api/">Anime API</a></h4>
-              <p>An API for simple retrievement of information on any anime.</p>
-          </div>
-        </div>
-     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box iconbox-pink">
-            <div class="icon"> 
-              <iconify-icon icon="tabler:api"></iconify-icon>
-              </div>
-              <h4><a href="https://autocode.com/captaincool6333/api/discord-profile/">Discord Profile API</a></h4>
-              <p>API for Discord Profile I created for my Aeolus Bot to share your profile with others.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                   <div class="icon-box iconbox-pink">
-               <div class="icon"> 
-                 <sl-icon name="github"></sl-icon>
-                 </div>
-                 <h4><a href="https://github.com/AeolusDev/NoNutNovember-Extension">NoNutNovember-Extension</a></h4>
-                 <p>Keeps you safe from all the horny stuff on the internet during NoNutNovember!</p>
-             </div>
-           </div>
+          </sl-carousel-item>
+          <sl-carousel-item>  
+          </sl-carousel-item>
+        </sl-carousel>
+      </div>
+    </div>
 </section>
 
   
       </div>
     </section>
-
-<!--<section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
- 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div> -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section> -->
 
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">

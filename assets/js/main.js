@@ -183,7 +183,6 @@
     return years;
   }
   
-  // Example: Calculate years since January 1, 2000
   const age = calculateYearsSince('2007-09-01');
   const roundedAge = Math.floor(age);
   document.getElementById('birthday').innerHTML = roundedAge;
